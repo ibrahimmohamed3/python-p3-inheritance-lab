@@ -7,4 +7,6 @@ import random
 class Teacher(User):
 
     def teach(self):
-        pass
+        def __init__(self, first_name, last_name):
+            super().__init__(first_name, last_name)
+        
